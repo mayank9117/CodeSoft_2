@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333433;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0e0d0d;
+    padding: 20px;
+}
+header {
+    animation: fadeIn 1s ease; 
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+h1{
+    color: #fff;
+}
+#developer{
+    text-decoration: underline;
+    color: #fff;
+}
+
+
+
+.header-content {
+    max-width: 50%;
+}
+
+.header-content h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.header-content .highlight {
+    color: #e74c3c;
+}
+
+.header-content p {
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+ .download-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    border: #333;
+    text-decoration: none;
+    border-radius: 6px;
+}
+.download-btn:hover,
+section#contact ul li a:hover {
+    background-color: #0a0505; 
+    transition: background-color 0.3s ease; 
+}
+
+
+.header-image img {
+    width: 300px;
+    height: auto;
+    border-radius: 60%;
+    transition: transform 0.2s ease, box-shadow 0.2s ease; 
+    box-shadow: 0px 0px 20px 5px rgba(255, 255, 255, 1); 
+    object-fit: cover;
+}
+
+.header-image img:hover {
+    transform: scale(1.05); 
+    box-shadow: 0px 0px 15px 10px rgba(255, 255, 245, 1); 
+    filter: drop-shadow(0 0 10px 5px #333);
+}
+
+
+section#about {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+}
+
+.about-image img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about-content {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.about-content h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.about-content p {
+    line-height: 1.6;
+}
+
+.about-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-content ul li {
+    margin-bottom: 10px;
+}
+
+.about-content ul li strong {
+    display: block;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+section#contact {
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+section#contact h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+section#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+section#contact ul li {
+    margin: 10px 0;
+}
+
+section#contact ul li a {
+    color: #e74c3c;
+    text-decoration: none;
+}
+h2{
+    text-decoration: underline;
+}
